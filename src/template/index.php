@@ -17,6 +17,6 @@ get_header();
 
 //do_action('robot_before_content', 'eight'); ?>
 <article>
-	Hi
+<?php get_template_part( 'loops/loop', 'page' ); ?>
 </article>
 <?php get_footer();
