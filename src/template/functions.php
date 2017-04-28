@@ -37,3 +37,4 @@ function NewTheme_wp_title( $title, $sep ) {
   return $title;
 }
 add_filter( 'wp_title', 'NewTheme_wp_title', 10, 2 );
+?>

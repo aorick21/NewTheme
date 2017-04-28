@@ -1,5 +1,5 @@
 /*!
-    Theme Name: My Theme
+    Theme Name: New Theme
     Theme URI: http://dev.robotcreative.com/
     Description: Demonstration theme
     Version: 1.0.0
@@ -17,8 +17,10 @@
 //@import 'components/_widget1';
 // etc...
 
-header{
-	color: red;
+article{
+	*{
+		color: red;
+	}
 	p{
 		color: gray;
 	}
